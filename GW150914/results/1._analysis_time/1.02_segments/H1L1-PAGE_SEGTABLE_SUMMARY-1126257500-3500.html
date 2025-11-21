@@ -1,0 +1,27 @@
+<div class=pycbc-meta key="title" value="Segment Summary: Input and output"></div><div class=pycbc-meta key="cmd" value="/home/spandan.sarma/anaconda3/envs/trienv4/bin/pycbc_page_segtable --segment-files H1L1-SCIENCE-1126257500-3500.xml H1L1-SCIENCE_AVAILABLE-1126257500-3500.xml H1L1-INSP_SEGMENTS-1126257500-3500.xml --segment-names science SCIENCE_AVAILABLE TRIGGERS_GENERATED --ifos H1 L1 --description This shows the total amount of input data, analyzable data, and the time for which triggers are produced. --title-text Input and output --output-file H1L1-PAGE_SEGTABLE_SUMMARY-1126257500-3500.html"></div><div class=pycbc-meta key="caption" value="This table shows the cumulative amount of time for each segment. Shown are: science SCIENCE_AVAILABLE TRIGGERS_GENERATED. This shows the total amount of input data, analyzable data, and the time for which triggers are produced."></div><div class=pycbc-meta key="version" value="Version: 0.0a8902
+Branch: master
+Tag: None
+Id: 9980e613fd233a2bb57df8fa2102e9965d16ac78
+Builder: Unknown User &lt;&gt;
+Build date: 2024-08-19 10:41:10 +0000
+Repository status is CLEAN: All modifications committed"></div>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Name');
+            data.addColumn('number', 'H1 Time (s)');
+            data.addColumn('number', 'L1 Time (s)');
+            data.addColumn('number', 'H1L1 Time (s)');
+        data.addRows([['science', 3500.0, 3500.0, 3500.0], ['SCIENCE_AVAILABLE', 3500.0, 3500.0, 3500.0], ['TRIGGERS_GENERATED', 3484.0, 3484.0, 3484.0]]);
+
+        var table = new google.visualization.Table(document.getElementById('40f0b673-6be8-4ddf-bd42-44a9ad7fad05'));
+        table.draw(data, {showRowNumber: 'true',
+                          page: 'enable',
+                          allowHtml: 'true',
+                          pageSize: 10});
+      }
+    </script>
+    <div id='40f0b673-6be8-4ddf-bd42-44a9ad7fad05'></div>

@@ -1,0 +1,76 @@
+2024-08-22 23:20:45,731:INFO : Created log file /home/spandan.sarma/Test_GW150914_1/search/output/results/9._workflow/H1L1-WORKFLOW-LOG-1126257500-3500.txt
+2024-08-22 23:20:52,521:INFO : H1: got segments-science flags
+2024-08-22 23:20:57,710:INFO : L1: got segments-science flags
+2024-08-22 23:20:57,848:INFO : Entering datafind module
+2024-08-22 23:20:57,854:INFO : Starting datafind with setup_datafind_runtime_generated
+2024-08-22 23:20:57,854:INFO : setup_datafind_runtime_generated completed
+2024-08-22 23:20:57,884:INFO : Leaving datafind module
+2024-08-22 23:21:08,266:INFO : H1: got segments-vetoes flags
+2024-08-22 23:21:18,645:INFO : L1: got segments-vetoes flags
+2024-08-22 23:21:18,724:INFO : H1: no segments requested
+2024-08-22 23:21:18,725:INFO : L1: no segments requested
+2024-08-22 23:21:18,793:INFO : Entering template bank generation module.
+2024-08-22 23:21:18,835:INFO : Setting template bank from pre-generated bank(s).
+2024-08-22 23:21:18,961:INFO : Input bank is a hdf file
+2024-08-22 23:21:18,962:INFO : convert template bank to HDF
+2024-08-22 23:21:18,981:INFO : Leaving template bank generation module.
+2024-08-22 23:21:18,981:INFO : Entering split output files module.
+2024-08-22 23:21:18,982:INFO : Adding split output file jobs to workflow.
+2024-08-22 23:21:18,983:INFO : Leaving split output files module.
+2024-08-22 23:21:19,019:INFO : Entering matched-filtering setup module.
+2024-08-22 23:21:19,061:INFO : Adding matched-filter jobs to workflow.
+2024-08-22 23:21:19,061:INFO : Setting up matched-filtering for H1.
+2024-08-22 23:21:20,884:INFO : Setting up matched-filtering for L1.
+2024-08-22 23:21:22,626:INFO : Leaving matched-filtering setup module.
+2024-08-22 23:21:22,638:INFO : Setting up dq reranking
+2024-08-22 23:21:22,684:INFO : Finished setting up dq reranking
+2024-08-22 23:21:22,691:INFO : Setting up coincidence
+2024-08-22 23:21:22,820:INFO : ...leaving coincidence 
+2024-08-22 23:21:22,821:INFO : No reranking done in this workflow
+2024-08-22 23:21:22,824:INFO : ...leaving coincidence 
+2024-08-22 23:21:22,828:INFO : ...leaving coincidence 
+2024-08-22 23:21:22,829:INFO : Setting up exclude zerolag
+2024-08-22 23:21:22,831:INFO : Setting up exclude zerolag
+2024-08-22 23:21:22,833:INFO : Setting up exclude zerolag
+2024-08-22 23:21:22,835:INFO : Setting up combine statmap
+2024-08-22 23:21:23,323:WARNING : DO NOT GIVE ME EMPTY TAGS (in plot_snrchi)
+2024-08-22 23:21:23,329:WARNING : DO NOT GIVE ME EMPTY TAGS (in plot_snrchi)
+2024-08-22 23:21:23,471:INFO : Entering minifollowups module
+2024-08-22 23:21:35,663:INFO : Leaving minifollowups module
+2024-08-22 23:21:35,664:INFO : Entering minifollowups module
+2024-08-22 23:21:42,007:INFO : Leaving minifollowups module
+2024-08-22 23:21:42,008:INFO : Entering minifollowups module
+2024-08-22 23:21:47,041:INFO : Leaving minifollowups module
+2024-08-22 23:21:47,042:INFO : Entering minifollowups module
+2024-08-22 23:21:50,666:INFO : Leaving minifollowups module
+2024-08-22 23:21:50,667:INFO : Entering minifollowups module
+2024-08-22 23:21:55,487:INFO : Leaving minifollowups module
+2024-08-22 23:21:55,488:INFO : Entering minifollowups module
+2024-08-22 23:22:00,496:INFO : Leaving minifollowups module
+2024-08-22 23:22:00,522:WARNING : warning: config file is missing section [page_ifar_catalog]
+2024-08-22 23:22:00,773:INFO : Entering minifollowups module
+2024-08-22 23:22:05,736:INFO : Leaving minifollowups module
+2024-08-22 23:22:05,736:INFO : Entering minifollowups module
+2024-08-22 23:22:09,984:INFO : Leaving minifollowups module
+2024-08-22 23:22:11,306:INFO : Entering split output files module.
+2024-08-22 23:22:11,307:INFO : Adding split output file jobs to workflow.
+2024-08-22 23:22:11,309:INFO : Leaving split output files module.
+2024-08-22 23:22:11,309:INFO : Entering injection module.
+2024-08-22 23:22:11,402:INFO : Leaving injection module.
+2024-08-22 23:22:11,403:WARNING : warning: config file is missing section [inj2hdf]
+2024-08-22 23:22:11,418:INFO : Entering matched-filtering setup module.
+2024-08-22 23:22:11,498:INFO : Adding matched-filter jobs to workflow.
+2024-08-22 23:22:11,499:INFO : Setting up matched-filtering for H1.
+2024-08-22 23:22:11,519:INFO : Setting up matched-filtering for L1.
+2024-08-22 23:22:11,523:INFO : Leaving matched-filtering setup module.
+2024-08-22 23:22:11,543:INFO : Setting up coincidence for injections
+2024-08-22 23:22:11,578:INFO : ...leaving coincidence for injections
+2024-08-22 23:22:11,611:INFO : No reranking done in this workflow
+2024-08-22 23:22:11,616:INFO : ...leaving coincidence 
+2024-08-22 23:22:11,620:INFO : ...leaving coincidence 
+2024-08-22 23:22:11,621:INFO : Setting up combine statmap
+2024-08-22 23:22:12,081:INFO : Entering injection minifollowups module
+2024-08-22 23:22:16,011:INFO : Leaving injection minifollowups module
+2024-08-22 23:22:18,698:WARNING : SiteCatalog and TransformationCatalog objects embedded into the root Workflow are not inherited by SubWorkflow jobs. To set SiteCatalog and TransformationCatalog objects in SubWorkflows, ensure that they are embedded into those SubWorkflows.
+2024-08-22 23:22:20,144:WARNING : SiteCatalog and TransformationCatalog objects embedded into the root Workflow are not inherited by SubWorkflow jobs. To set SiteCatalog and TransformationCatalog objects in SubWorkflows, ensure that they are embedded into those SubWorkflows.
+2024-08-22 23:22:20,236:INFO : Written dax.
